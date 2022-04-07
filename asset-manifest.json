@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/pulesos_dev_fortnite_react/static/css/main.e2dd0d87.css",
-    "main.js": "/pulesos_dev_fortnite_react/static/js/main.2b314593.js",
+    "main.css": "/pulesos_dev_fortnite_react/static/css/main.63b8f9b0.css",
+    "main.js": "/pulesos_dev_fortnite_react/static/js/main.b4b0144e.js",
     "index.html": "/pulesos_dev_fortnite_react/index.html",
-    "main.e2dd0d87.css.map": "/pulesos_dev_fortnite_react/static/css/main.e2dd0d87.css.map",
-    "main.2b314593.js.map": "/pulesos_dev_fortnite_react/static/js/main.2b314593.js.map"
+    "main.63b8f9b0.css.map": "/pulesos_dev_fortnite_react/static/css/main.63b8f9b0.css.map",
+    "main.b4b0144e.js.map": "/pulesos_dev_fortnite_react/static/js/main.b4b0144e.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2dd0d87.css",
-    "static/js/main.2b314593.js"
+    "static/css/main.63b8f9b0.css",
+    "static/js/main.b4b0144e.js"
   ]
 }
