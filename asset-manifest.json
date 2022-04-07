@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pulesos_dev_fortnite_react/static/css/main.e2dd0d87.css",
+    "main.js": "/pulesos_dev_fortnite_react/static/js/main.2b314593.js",
+    "index.html": "/pulesos_dev_fortnite_react/index.html",
+    "main.e2dd0d87.css.map": "/pulesos_dev_fortnite_react/static/css/main.e2dd0d87.css.map",
+    "main.2b314593.js.map": "/pulesos_dev_fortnite_react/static/js/main.2b314593.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2dd0d87.css",
+    "static/js/main.2b314593.js"
+  ]
+}
