@@ -1,7 +1,8 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import './Header.css';
 
-const Header = (props) => {
+const Header = () => {
     return (
         <nav className="green darken-1">
             <div className="nav-wrapper">

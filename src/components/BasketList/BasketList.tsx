@@ -1,8 +1,18 @@
 import React from "react";
+import { OrderType } from "../../types/types";
 import BasketItem from "./BasketItem/BasketItem";
 import './BasketList.css';
 
-const BasketList = ({order = [], handleBasketShow, removeFromBasket, decQuantity, incQuantity}) => {
+type BasketListType = {
+    order: OrderType[], 
+    totalPrice: number,
+    handleBasketShow: () => void, 
+    removeFromBasket: (id: string) => void, 
+    decQuantity: (id: string) => void, 
+    incQuantity: (id: string) => void
+}
+
+const BasketList: React.FC<BasketListType> = ({order, handleBasketShow, removeFromBasket, decQuantity, incQuantity}) => {
     const totalPrice = order.reduce((sum, el) => {
         return sum + el.price * el.quantity
     }, 0);
@@ -13,7 +23,7 @@ const BasketList = ({order = [], handleBasketShow, removeFromBasket, decQuantity
                     order.length ? order.map(item => (
                         <BasketItem 
                             key={item.id} 
-                            {...item} 
+                            orderItem={item} 
                             removeFromBasket={removeFromBasket} 
                             decQuantity={decQuantity} 
                             incQuantity={incQuantity}/>

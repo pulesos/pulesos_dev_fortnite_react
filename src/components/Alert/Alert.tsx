@@ -1,7 +1,12 @@
 import React, { useEffect } from "react";
 import './Alert.css';
 
-const Alert = ({name = '', closeAlert}) => {
+type AlertType = {
+    name: string,
+    closeAlert: () => void
+}
+
+const Alert: React.FC<AlertType> = ({name = '', closeAlert}) => {
 
 
     useEffect(() => {
@@ -10,7 +15,7 @@ const Alert = ({name = '', closeAlert}) => {
         return () => {
             clearTimeout(timerId)
         };
-    }, [name]);
+    }, [closeAlert, name]); // warn
 
     return (
         <div id='toast-container'>
